@@ -97,7 +97,7 @@ export default function OrderForm() {
         ))}
 
         {error && <p className="error">{error}</p>}
-        <Button variant="primary">Place order</Button>
+        <Button type="submit" variant="primary">Place order</Button>
       </form>
     </main>
   );

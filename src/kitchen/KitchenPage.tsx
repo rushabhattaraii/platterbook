@@ -13,7 +13,7 @@ function NoteForm({ order, onSaved }: { order: Order; onSaved: (o: Order) => voi
   return (
     <form className="note-form" onSubmit={submitNote}>
       <input placeholder="Kitchen note" value={note} onChange={(e) => setNote(e.target.value)} />
-      <Button>Save note</Button>
+      <Button type="submit">Save note</Button>
     </form>
   );
 }
